@@ -47,4 +47,5 @@ public class AddMarkupServiceTest extends AndroidTestCase{
         String success = addMarkupService.addGameMarkup("Warzone");
         Assert.assertEquals("SUCCEEDED", success);
     }
+
 }

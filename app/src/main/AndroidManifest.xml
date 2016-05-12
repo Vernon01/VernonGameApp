@@ -35,6 +35,10 @@
         <service
             android:name=".Services.Impl.UpdateMarkupServiceImpl"
             android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".Services.Impl.CategoryMarkupServiceImpl"
+            android:enabled="true"
             android:exported="true"></service>
     </application>
 
